@@ -65,7 +65,7 @@ public class MainActivity extends Activity {
                     try {
                         doStartScan();
                     }catch (Exception e){
-                        e.printStackTrace();
+                        e.printStackTrace();  
                     }
                     break;
                 case R.id.scanStop:
